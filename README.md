@@ -33,12 +33,12 @@ This repository is organized into three main components:
 
 ### utility Module and Connector
 <p align="center">
-  <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module2.png" width="90%">
+  <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module2.png" width="70%">
 </p>
 
 ### Controller Authoring Tool
 <p align="center">
-  <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring tool.png" width="70%">
+  <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring tool.png" width="50%">
 </p>
 
 ## Citation
