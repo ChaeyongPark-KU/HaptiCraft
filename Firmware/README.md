@@ -50,16 +50,6 @@ String nodeName = "11"; // Set a unique 2-digit ID for the module
 
 Here is the updated **Command Format** section for your `README.md`. This version specifically reflects the broadcasting logic found in your `masterModule.ino` and the parsing behavior in `hapticModule.ino`.
 
----
-
-### 3. Command Format & Broadcasting logic
-
-HaptiCraft uses a **Global Broadcast** strategy to ensure synchronized multimodal effects. The Master Module receives a concatenated command string from the PC and sends it to all nodes simultaneously.
-
-Here is the updated **Command Format & Broadcasting Logic** section for your `README.md`. This version clarifies that the Master Module acts as a transparent relay for the aggregated command string sent by the PC[cite: 919, 922].
-
----
-
 ### 3. Command Format & Broadcasting Logic
 
 HaptiCraft utilizes a **Global Broadcast** strategy to ensure synchronized multimodal effects across multiple modules.
