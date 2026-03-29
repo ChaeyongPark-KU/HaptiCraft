@@ -2,6 +2,8 @@
 
 **HaptiCraft** is a modular, reconfigurable handheld controller designed to replicate the physical appearance, mass distribution, and rich multimodal haptic properties of virtual objects. By assembling cubic modules with distinct functions, users can create a customized physical proxy tailored to specific VR interactions.
 
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/img/teaser.png">
+
 ## Key Features
 
 * **Modular Shape Approximation**: Uses unit cube modules ($48 \times 48 \times 48$ mm) to build controllers that mimic the shape of virtual counterparts.
