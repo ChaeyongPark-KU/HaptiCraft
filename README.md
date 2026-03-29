@@ -32,10 +32,14 @@ This repository is organized into three main components:
 <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module1.png">
 
 ### utility Module and Connector
-<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module2.png">
+<p align="center">
+  <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module2.png" width="90%">
+</p>
 
 ### Controller Authoring Tool
-<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring tool.png">
+<p align="center">
+  <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring tool.png" width="70%">
+</p>
 
 ## Citation
 If you use HaptiCraft in your research, please cite our paper:
