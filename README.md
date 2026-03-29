@@ -27,6 +27,15 @@ This repository is organized into three main components:
 * **/Firmware**: ESP8266 source code for the Wi-Fi mesh communication and haptic rendering protocols.
 * **/Software**: The Unity source code for the HaptiCraft authoring tool.
 
+## Examples
+### Haptic Modules
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module1.png">
+
+### utility Module and Connector
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/module2.png">
+
+### Controller Authoring Tool
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring tool.png">
 
 ## Citation
 If you use HaptiCraft in your research, please cite our paper:
