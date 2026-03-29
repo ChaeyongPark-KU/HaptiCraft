@@ -20,8 +20,9 @@ Every individual haptic module runs the same unified firmware, with its specific
 
 
 ## Communication Flow
-
-<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/implementation_protocol.png" width="50%">
+<p align="center">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/implementation_protocol.png" width="60%">
+</p>
 
 Refer to the diagram below for the data transmission path:
 
