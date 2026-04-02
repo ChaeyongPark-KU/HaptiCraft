@@ -16,7 +16,7 @@ Follow the schematics provided in this directory for each specific module type:
 The structural unit of the system. It consists of the 3D-printed housing, the MCU, and 6 Pogo pins for connectivity, with no active haptic actuators.
 
 <p align="center">
-   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_shape_module.png" width="60%">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_shape_module.png" width="40%">
 </p>
 
 ### 2. Vibration Module
@@ -25,7 +25,7 @@ Uses a motor driver to power two ERM motors for stable vibrotactile feedback.
 * **Motor Driver**: [Pololu; BD65496MUV](https://www.rohm.co.kr/products/motor-actuator-drivers/dc-brush-motor/bd65496muv-product#productDetail).
 
 <p align="center">
-   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_vibration_module.png" width="60%">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_vibration_module.png" width="65%">
 </p>
 
 ### 3. Impact Module
@@ -34,7 +34,7 @@ Delivers short, strong impulses. Since it requires 5V, a step-up converter is in
 * **Converter**: [WSTECH; DM06-V5](m.eleparts.co.kr/goods/view?no=4107103).
 
 <p align="center">
-   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_impact_module.png" width="60%">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_impact_module.png" width="55%">
 </p>
 
 ### 4. Thermal Module
@@ -70,21 +70,21 @@ A utility module containing only the MCU. It must be loaded with the `masterModu
 A 3D-printed housing embedded with a standard **mechanical keyboard switch** (linear switch) for user input.
 
 <p align="center">
-   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_button_module.png" width="60%">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_button_module.png" width="45%">
 </p>
 
 ### 9. Touch Module
 The top panel is printed using **conductive filament**. The circuit detects a touch when a finger bridges the filament paths, completing the electrical connection.
 
 <p align="center">
-   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_touch_module.png" width="60%">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_touch_module.png" width="45%">
 </p>
 
 ### 10. Power Module
 Houses a **LiPo battery** (3.7V, 1200 mAh) and a charging circuit to provide untethered power to the entire HaptiCraft assembly.
 
 <p align="center">
-   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_power_module.png" width="60%">
+   <img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/schematic_power_module.png" width="50%">
 </p>
 
 ### 11. Tracking Module
