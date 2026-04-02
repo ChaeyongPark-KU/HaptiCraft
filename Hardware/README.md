@@ -2,7 +2,7 @@
 
 This folder contains the CAD files (STL) and electronic specifications for the **HaptiCraft** system. All haptic and utility modules are built around the [**ESP8266-based Wemos D1 Mini**](https://www.wemos.cc/en/latest/d1/d1_mini.html).
 
-## 🏗️ Manufacturing & Assembly
+## Manufacturing & Assembly
 
 * **3D Printing**: All housings are designed for modular assembly. For this research, parts were printed using a **Cubicon Single Plus 320C** with PLA filament. But, you can use any 3D printer for printing.
 * **Module Faces**: Each STL file corresponds to a specific side of a cube, designed to be easily printed and assembled to house internal components.

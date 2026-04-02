@@ -2,12 +2,16 @@
 
 HaptiCraft authoring tool is a Unity-based tool designed for creating modular haptic controllers and designing custom haptic feedback patterns. This tool supports the entire workflow from virtual assembly to physical implementation and haptic signal synchronization.
 
-## **🛠 Preparation**
+<p align="center">
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring0.png" width="60%">
+</p>
+
+## **Preparation**
 
 ### **Hardware Requirements**
 
-- **Master Module:** Connect the master module to your PC via USB.
-- **Serial Port:** Identify the COM port number (Windows) assigned to the master module.
+- **Communication Module:** Connect a communication module to your PC via USB.
+- **Serial Port:** Identify the COM port number (Windows) assigned to the communication module.
 
 ### **Software Requirements**
 
@@ -20,9 +24,9 @@ HaptiCraft authoring tool is a Unity-based tool designed for creating modular ha
 2. Set **Api Compatibility Level** to **.NET Framework**.
 3. Open the main scene: Assets/Scenes/HaptiCraft.unity.
 4. In the **Hierarchy**, find Authoring Utils \-\> Serial Manager.
-5. Set the **Port Number** in the Inspector to match your master module's serial port.
+5. Set the **Port Number** in the Inspector to match your communication module's serial port.
 
-## **🎮 Basic Controls**
+## **Basic Controls**
 
 | **Action**            | **Input**           |
 | --------------------- | ------------------- |
@@ -30,13 +34,17 @@ HaptiCraft authoring tool is a Unity-based tool designed for creating modular ha
 | **Move Controller**   | Wheel Click \+ Drag |
 | **Zoom In / Out**     | Wheel Scroll        |
 
-## **🚀 Authoring Workflow**
+## **Authoring Workflow**
 
 The tool consists of three main phases to guide you through the creation process.
 
-### **1\. Authoring Phase**
+### **1\. Controller Design Phase**
 
 This is where you design the physical structure of your virtual modular controller.
+
+<p align="center">
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring1.png"  width="60%">
+</p>
 
 - **Add Modules:** Click the module buttons (top-left) to spawn a module at the bottom-center of the screen.
 - **Connect Modules:** Select a specific face of the new module and then the face on the existing controller you wish to connect to.
@@ -44,30 +52,38 @@ This is where you design the physical structure of your virtual modular controll
 - **Confirm:** Press the **Return (Enter)** key to finalize the connection.
 - **Next:** Once the controller is finished, click the **Next** button (top-right).
 
-### **2\. Implementation Phase (Optional)**
-
-This phase helps you assemble the physical hardware corresponding to your virtual design.
-
-- **Assembly Guide:** Starting from the Power Module, the virtual module to be connected next will **blink**.
-- **Detection:** Once the Master Module recognizes the physical connection, the next module in the sequence will start blinking.
-- **Skip:** You can skip this phase and proceed to the next by clicking the **Next** button without connecting physical modules.
-
-### **3\. Haptic Phase**
+### **2\. Haptic Assembly Phase**
 
 Design and edit haptic signals for the assembled controller.
 
+<p align="center">
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring1.png" width="60%">
+</p>
+
 - **Module Selection:** Left-click on any haptic-capable module to create a stimulus.
 - **Edit Haptic Effects:** Use the **Haptic Layer** (right) and the **Timeline/Haptic Track** (bottom) to adjust the timing, duration, and intensity of the feedback.
+  
 
-#### **Supported Haptic Modules:**
+### **3\. Implementation Phase**
+
+This phase helps you assemble the physical hardware corresponding to your virtual design.
+
+- **Assembly Guide:** Starting from `Power module`, the virtual module to be connected next will **blink**.
+- **Detection:** Once `Communication Module` recognizes the physical connection, the next module in the sequence will start blinking.
+- **Skip:** You can skip this phase and proceed to the next by clicking the **Next** button without connecting physical modules.
+  
+
+#### **Supported Modules:**
 
 - **Vibration Module:** Envelope, Intensity, Duration, Delay.
 - **Thermal Module:** Mode (Cold / Hot), Intensity, Duration, Delay.
 - **Inertia Module:** Direction, Duration.
 - **Impact Module:** Repetition, Delay.
 - **Stiffness Module:** _(Currently disabled)_
+- **Button Module:** Click detection.
+- **Touch Module:** Touch detection.
 
-## **💾 Save / Load**
+## **Save / Load**
 
 You can save or load your controller designs and haptic patterns at any time.
 
