@@ -28,11 +28,14 @@ HaptiCraft authoring tool is a Unity-based tool designed for creating modular ha
 
 ## **Basic Controls**
 
+<p align="center">
+
 | **Action**            | **Input**           |
 | --------------------- | ------------------- |
 | **Rotate Controller** | Left Click \+ Drag  |
 | **Move Controller**   | Wheel Click \+ Drag |
 | **Zoom In / Out**     | Wheel Scroll        |
+</p>
 
 ## **Authoring Workflow**
 
