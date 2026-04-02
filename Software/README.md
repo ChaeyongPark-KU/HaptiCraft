@@ -57,7 +57,7 @@ This is where you design the physical structure of your virtual modular controll
 Design and edit haptic signals for the assembled controller.
 
 <p align="center">
-<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring1.png" width="60%">
+<img src="https://github.com/ChaeyongPark-KU/HaptiCraft/blob/main/img/authoring2.png" width="60%">
 </p>
 
 - **Module Selection:** Left-click on any haptic-capable module to create a stimulus.
